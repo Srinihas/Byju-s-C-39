@@ -52,7 +52,7 @@ class Quiz {
         debugger;
         var correctAns = "2";
         //check the condition whether player answer and correct ans are equal
-        if (answer === correctAns) {
+        if (correctAns === allContestants[plr].answer) {
           fill("green");
         } else {
           fill("red");
